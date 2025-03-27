@@ -12,7 +12,7 @@ df = pd.DataFrame(
    ]
 )
 with col1:
-    st.title("XrtaLit calculator")
+    st.title("XtraLit calculator")
     st.subheader("0. Brine Treatment Cost Calculator")
     edited_df = st.data_editor(df, hide_index=True, num_rows="dynamic")
 with col2:
