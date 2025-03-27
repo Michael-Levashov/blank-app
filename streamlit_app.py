@@ -7,7 +7,7 @@ col1, col2 = st.columns(2)
 df = pd.DataFrame(
     [
        {"Reagent": "Hypochlorite", "Quantity per m3 of brine (kg)": 0.4, "Price per kg": 0.4,  "Time (hours)": 0.4, "is used": False},
-       {"Reagent": "Polyacrilamid",  "Quantity per m3 of brine (kg)": 0.4, "Price per kg": 0.4, "Time (hours)": 0.5, "is used": False},
+       {"Reagent": "Polyacrylamide",  "Quantity per m3 of brine (kg)": 0.4, "Price per kg": 0.4, "Time (hours)": 0.5, "is used": False},
        {"Reagent": "Polyphosphate",  "Quantity per m3 of brine (kg)": 0.4, "Price per kg": 0.4, "Time (hours)": 0.3, "is used": False},
    ]
 )
