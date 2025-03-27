@@ -12,7 +12,7 @@ df = pd.DataFrame(
    ]
 )
 with col1:
-    st.title("XL calculation")
+    st.title("XrtaLit calculator")
     st.subheader("0. Brine Treatment Cost Calculator")
     edited_df = st.data_editor(df, hide_index=True, num_rows="dynamic")
 with col2:
@@ -22,7 +22,7 @@ with col2:
 
          total_cost = (selected_reagents["Quantity per m3 of brine (kg)"] * selected_reagents["Price per kg"]).sum()
          total_time = selected_reagents["Time (hours)"].sum()
-         st.write(f"**Total Cost:** ${total_cost:.2f} /m3")
+         st.write(f"**Total Cost:** ${total_cost:.2f}/m3")
          st.write(f"**Total Time:** {total_time:.2f} hours")
     else:
          st.warning("No need pretreatment!")
